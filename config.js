@@ -8,7 +8,7 @@ const config = {
 		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
 		"logoLink": "https://learn.hasura.io",
 		"title": "Gatsby Gitbook Boilerplate",
-		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
+		"githubUrl": "https://github.com/wserr/Docs",
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
@@ -25,13 +25,13 @@ const config = {
 	"sidebar": {
 		"forcedNavOrder": [
 			"/introduction",
-    		"/codeblock"
+			"/Raspberry Pi"
 		],
     	"collapsedNav": [
-      		"/codeblock"
+			  "/Raspberry Pi"
     	],
 		"links": [
-			{ "text": "Hasura", "link": "https://hasura.io"},
+			{ "text": "About Me", "link": "/introduction"},
 		],
 		"frontline": false,
 		"ignoreIndex": true,
@@ -40,7 +40,7 @@ const config = {
 		"title": "Gatsby Gitbook Boilerplate | Hasura",
 		"description": "Documentation built with mdx. Powering learn.hasura.io ",
 		"ogImage": null,
-		"docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
+		"docsLocation": "https://github.com/wserr/Docs/tree/master/content",
 		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
 	},
 	"pwa": {
