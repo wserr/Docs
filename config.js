@@ -24,16 +24,13 @@ const config = {
 	},
 	"sidebar": {
 		"forcedNavOrder": [
-			"/introduction",
-			"/Raspberry Pi",
+			"/About Me",
 			"/Building an ASP .NET Core Web App"
 		],
     	"collapsedNav": [
-			  "/Raspberry Pi",
 			  "/Building an ASP .NET Core Web App"
     	],
 		"links": [
-			{ "text": "About Me", "link": "/introduction"},
 		],
 		"frontline": false,
 		"ignoreIndex": true,
