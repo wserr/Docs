@@ -2,6 +2,14 @@ require("dotenv").config();
 const queries = require("./src/utils/algolia");
 const config = require("./config");
 const plugins = [
+  {
+    resolve: 'gatsby-transformer-remark',
+    options: {
+      plugins: [
+        'gatsby-remark-mermaid'
+      ]
+    }
+  },
   'gatsby-plugin-sitemap',
   'gatsby-plugin-sharp',
   {
@@ -29,7 +37,7 @@ const plugins = [
           options: {
             maxWidth: 1035,
             sizeByPixelDensity: true
-          }
+          },
         },
         {
           resolve: 'gatsby-remark-copy-linked-files'

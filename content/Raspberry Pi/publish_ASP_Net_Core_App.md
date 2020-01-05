@@ -4,8 +4,6 @@ metaTitle: "Publish ASP .NET Core App on a Raspberry Pi"
 metaDescription: "How to publish an ASP .NET Core App on a Raspberry Pi"
 ---
 
-TEST 
-
 # Prerequisites
 * Install raspbian
 * Execute following code (point to a folder where to create new project):
