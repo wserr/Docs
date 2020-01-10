@@ -25,10 +25,10 @@ const config = {
 	"sidebar": {
 		"forcedNavOrder": [
 			"/About Me",
-			"/Building an ASP .NET Core Web App"
+			"/The Unforgettable App"
 		],
     	"collapsedNav": [
-			  "/Building an ASP .NET Core Web App"
+			  "/The Unforgettable App"
     	],
 		"links": [
 		],
