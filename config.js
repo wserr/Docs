@@ -6,8 +6,8 @@ const config = {
 	},
 	"header": {
 		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-		"logoLink": "https://learn.hasura.io",
-		"title": "Gatsby Gitbook Boilerplate",
+		"logoLink": "index",
+		"title": "Docs of Willem Serruys",
 		"githubUrl": "https://github.com/wserr/Docs",
 		"helpUrl": "",
 		"tweetText": "",
