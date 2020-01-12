@@ -1,7 +1,7 @@
 ---
-title: "Publish ASP .NET Core App on a Raspberry Pi"
-metaTitle: "Publish ASP .NET Core App on a Raspberry Pi"
-metaDescription: "How to publish an ASP .NET Core App on a Raspberry Pi"
+title: "Security"
+metaTitle: "Implementing security in the app"
+metaDescription: "Talks about how users can create a new account, and log in into the application using AspNetCore Identity"
 ---
 
 # Implementing security into the project
