@@ -6,7 +6,7 @@ const config = {
 	},
 	"header": {
 		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-		"logoLink": "index",
+		"logoLink": "#",
 		"title": "Docs of Willem Serruys",
 		"githubUrl": "https://github.com/wserr/Docs",
 		"helpUrl": "",

@@ -7,6 +7,7 @@ import { Layout, Link } from "$components";
 import NextPrevious from '../components/NextPrevious';
 import '../components/styles.css';
 import config from '../../config';
+import CommunityAuthor from '../CommunityAuthor'
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
@@ -50,6 +51,7 @@ export default class MDXRuntimeTest extends Component {
       }
     } = data;
     const gitHub = require('../components/images/github.svg');
+    const photoOfme = require('../components/images/download.png');
 
     const navItems = allMdx.edges
       .map(({ node }) => node.fields.slug)
@@ -119,6 +121,7 @@ export default class MDXRuntimeTest extends Component {
         <div className={'mainWrapper'}>
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
+        <CommunityAuthor name="Willem Serruys" imageUrl={photoOfme} githubUrl="https://github.com/wserr" description="Programmer. Tech Enthusiast. Avid Coffee Drinker."></CommunityAuthor>
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />
         </div>

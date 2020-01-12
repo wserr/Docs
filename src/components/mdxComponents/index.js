@@ -2,6 +2,7 @@ import React from "react";
 import CodeBlock from "./codeBlock";
 import AnchorTag from "./anchor";
 import YoutubeEmbed from "../../YoutubeEmbed"
+import CommunityAuthor from "../../CommunityAuthor"
 import '../styles.css';
 
 export default {
@@ -15,7 +16,8 @@ export default {
   pre: props => <pre className='pre' {...props} />,
   code: CodeBlock,
   a: AnchorTag,
-  // b: YoutubeEmbed
+  b: YoutubeEmbed,
+  c: CommunityAuthor
 
   // TODO add `img`
   // TODO add `blockquote`
